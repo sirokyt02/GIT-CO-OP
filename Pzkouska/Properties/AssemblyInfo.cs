@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Obecné informace o sestavení se řídí přes následující 
 // sadu atributů. Změnou hodnot těchto atributů se upraví informace
 // přidružené k sestavení.
-[assembly: AssemblyTitle("P01")]
+[assembly: AssemblyTitle("Pzkouska")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("P01")]
+[assembly: AssemblyProduct("Pzkouska")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Následující GUID se používá pro ID knihovny typů, pokud je tento projekt vystavený pro COM.
-[assembly: Guid("ddf34aed-bd03-465c-b2d5-aa31c3cc7195")]
+[assembly: Guid("2050d254-70f7-44b6-8414-f6586772e96a")]
 
 // Informace o verzi sestavení se skládá z těchto čtyř hodnot:
 //

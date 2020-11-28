@@ -16,5 +16,33 @@ namespace P01
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string zprava = "";
+            foreach (char pis in textBox1.Text)
+            {
+                if (pis != ' ' && pis != '!' && pis != '?' && pis != ',' && pis != '.')
+                    zprava += (char)(pis + 3);
+                else zprava += pis;
+            }
+            MessageBox.Show(zprava);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string abc = "QERTYUIOPASDFGHJKLZXCVBNM .,?!";
+            int pocitani = 0;
+            foreach(Control ctrl in panel1.Controls)
+            {
+                if (ctrl is Button) (ctrl as Button).Text = abc[pocitani].ToString();
+                pocitani++;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += (sender as Button).Text;
+        }
     }
 }
