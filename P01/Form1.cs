@@ -31,7 +31,7 @@ namespace P01
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string abc = "QERTYUIOPASDFGHJKLZXCVBNM .,?!";
+            string abc = "QWERTYUIOPASDFGHJKLZXCVBNM .,?!";
             int pocitani = 0;
             foreach(Control ctrl in panel1.Controls)
             {
@@ -40,7 +40,7 @@ namespace P01
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             textBox1.Text += (sender as Button).Text;
         }
