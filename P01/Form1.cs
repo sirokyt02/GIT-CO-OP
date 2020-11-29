@@ -43,6 +43,7 @@ namespace P01
         private void button3_Click(object sender, EventArgs e)
         {
             textBox1.Text += (sender as Button).Text;
+            //v udalostech zmenit na button 3 (poznamka pro me)
         }
     }
 }
