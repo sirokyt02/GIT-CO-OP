@@ -41,7 +41,7 @@ namespace P02
             }
             label1.Text = "Mnozstvi vybranych polozek je: " + listBox1.SelectedItems.Count.ToString();
             label2.Text = "Soucet polozek je: " + souc.ToString();
-            //pri vyberu vice polozek zmacknout CTRL (poznamka pro me)
+            //pri vyberu vice polozek zmacknout CTRL (poznamka pro me).
         }
     }
 }
